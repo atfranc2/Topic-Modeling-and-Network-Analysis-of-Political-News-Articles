@@ -1,6 +1,7 @@
 # Topic-Modeling-and-Network-Analysis-of-Political-News-Articles
 Scrapes political news article links using the Microsoft Azure Bing Search API. Then BeautifulSoup  is used to scrape article text. The articles are then prepossessed using tokenization, stop word removal, and porter stemming. LDA and LSI topic modeling are used to find latent topics. The cosine similarity of topic composition is then computed for each method. Finally a force directed network visualization is constructed in Gephi. 
 
+![GitHub Logo](https://github.com/atfranc2/Topic-Modeling-and-Network-Analysis-of-Political-News-Articles/blob/master/LDA%20Network.png)
 
 
 # References
