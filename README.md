@@ -19,6 +19,7 @@ In the document-document similarity network modularity, was used to find documen
 ## Dataset
 The dataset contains 1736 documents collected from online political news articles from 475 different news organizations written between February 1st, 2020 and March 6th, 2020.  We used the Microsoft Azure Bing News Search API to collect links to political news articles. Once the article links were obtained we scraped the article text from each website using the BeautifulSoup module in Python. The search terms used to collect article links are listed below: 
 
+**Table 1:** Terms used in the Bing search query to collect article links
 Query Terms | Query Terms Continued
 ------------ | -------------
 USA Election Politics | Democratic National Convention 2020 
@@ -31,6 +32,7 @@ Super Tuesday | 2020 Presidential Election Opinion
 Republican National Convention 2020 | 
 
 
+
 ## Methodology
 Scrapes political news article links using the Microsoft Azure Bing Search API. Then BeautifulSoup  is used to scrape article text. The articles are then prepossessed using tokenization, stop word removal, and porter stemming. LDA and LSI topic modeling are used to find latent topics. The cosine similarity of topic composition is then computed for each method. Finally a force directed network visualization is constructed in Gephi. 
 
@@ -39,6 +41,21 @@ Scrapes political news article links using the Microsoft Azure Bing Search API. 
 **Figure 2:** Workflow of article collection, topic modeling, and network analysis
 
 
+## Results
+
+**Table 2:** Summary topic compositions of the 10 most prevalent news organziations in the dataset
+Organization | Topic Count |	Topic List
+------------ | ------------- | ------------
+YAHOO! |	7 |	Topic 1, Topic 4, Topic 7, Topic 8, Topic 10, Topic 14, Topic 15
+MSN |	7 |	Topic 2, Topic 8, Topic 9, Topic 10, Topic 11, Topic 14, Topic 15
+International Business Times |	5 |	Topic 7, Topic 8, Topic 10, Topic 11, Topic 14
+Reuters |	4 |	Topic 2, Topic 8, Topic 9, Topic 11
+USA Today |	3 |	Topic 7, Topic 8, Topic 14
+Politico |	3 |	Topic 1, Topic 5, Topic 15
+Fox News |	3 |	Topic 5, Topic 7, Topic 10
+Business Insider |	3 |	Topic 7, Topic 8, Topic 15
+Washington Post |	2 |	Topic 7, Topic 14
+New York Times |	2 |	Topic 5, Topic 15
 
 # References
 1. Sarkar, Dipanjan. "Text Analytics with Python." (2016).
