@@ -1,9 +1,12 @@
 # Analysis of Topic Networks in Political News Articles
 
-## Authors
 
-### Yuting (Crystal) Cheng
-### Andrew Francis
+
+## Authors
+1. Yuting (Crystal) Cheng
+2. Andrew Francis
+
+
 
 ## Summary
 The objective of this analysis is to explore the relationships that various new organizations form with a set of topics that are discussed in political news sections relating specifically to the 2020 presidential election cycle. The purpose of performing this analysis is to propose a methodology for exploring how well different news organizations cover latent topics in political news, so that readers can choose outlets that are more representative of a broad range of topics.
